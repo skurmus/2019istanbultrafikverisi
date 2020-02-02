@@ -41,14 +41,29 @@ Gözlemlere baktığımızda ortalama trafiğin 26.17, stadanrt sapmanın 18.53 
 
 Yılın en yüksek trafik yoğunluğunun (81) gözlemlendiği zamanlar 31 Ocak Perşembe 18:36 - 18:56 arası (yarı yıl tatilinin son Perşembesi) ve 29 Haziran Cumartesi 15:53 - 17:08 arası (Büyükşehir Belediye Başkanlığı Seçiminden önceki gün). Diğer maksimum gözlemleri de 20 Eylül Cuma, 31 Ekim Perşembe ve 11 Aralık Çarşamba günleri 18:00 - 19:00 arası görüyoruz hep.
 
-## Yıllık Trend
+## Günlük Veriler
 
 Günlük ortalama ve maksimum değerler günden güne ciddi değişiklikler gösteriyor. Yedi günlük kayan ortalamalarla yıllık trendi daha iyi görmek mümkün. Hem günlük ortalama trafik (o günkü gözlemlerin ortalaması) hem de o günkü maksimum trafik (her gün içindeki en yüksek gözlem) Temmuz ortasına kadar yavaş yavaş azalıyor (25'ten 20'ye gibi) sonra yıl sonuna kadar daha hızlı bir şekilde artıyor (20'den 35'e gibi). Temmuz'un ikinci yarısı ve Ağustos ayı verileri olmadığı için bu grafikte trafikteki artış 15 Temmuz'da başlıyormuş gibi gözüküyor ama veri olsa muhtemelen düşüşün Ağustos sonuna kadar devam ettiğini görürdük.
 
 ![](/Figures/Trafik%20Yog%CC%86unlug%CC%86u%20(Gu%CC%88nlu%CC%88k%20Kayan%20Ortalama%20ve%20Maksimum).png)
 
-Günlük ortalama ve maksimm değerlerin dağılımı normal dağılıma yakın. Ortalamaların ortalaması 26.09, standart sapması 5.92. Günlük ortalamaların yaklaşık %27'si bir standart sapmadan daha uzakta ortalamadan. Günlük maksimum değerlerin de ortalaması 58.30, stadart sapması 11.72. Maksimum değelerin de yaklaşık %28'i bir stadart sapmanın dışında kalıyor.
+Günlük ortalama ve maksimm değerlerin dağılımı normal dağılıma yakın. Ortalamaların ortalaması 26.09, standart sapması 5.92. Günlük ortalamaların yaklaşık %27'si bir standart sapmadan daha uzakta ortalamadan. Günlük maksimum değerlerin de ortalaması 58.30, standart sapması 11.72. Maksimum değerlerin de yine yaklaşık %28'i bir standart sapmanın dışında kalıyor.
 
 ![](/Figures/Gu%CC%88nlu%CC%88k%20Trafik%20Yog%CC%86unlug%CC%86u%20(Dag%CC%86%C4%B1l%C4%B1m).png)
+
+Günlük ortalamaların en yüksek olduğu beş gün şöyle:
+
+Tarih|Ortalama
+-----|--------
+4 Aralık | 39.80
+26	Aralık | 38.69
+1	Kasım | 37.77
+20	Eylül | 37.62
+27	Aralık | 36.94
+
+Aşağıda bütün yılı gösteren bir ısı haritası var. Her hücre bir günü gösteriyor. Hücre renkleri günlük ortalamaya göre değişiyor. Ortalama yükseldikçe ilgili hücrenin rengi de kızarıyor, düştükçe, yeşilleşiyor. Her hücrenin sol üst köşesinde o gün gözlemlenen maksimum trafik yazıyor, ortasındaysa o günün ortalaması. Haftasonları maviyle, resmi tatiller sarıyla işsaretlenmiş. Okul tatillerine denk gelen hüzrelerin altında da sarı bir bant var.
+
+![](/Figures/Trafik%20Yoğunluğu%20(Ay%20ve%20Günlere%20Göre).png)
+
 
 # İBB Açık Veri Portali
