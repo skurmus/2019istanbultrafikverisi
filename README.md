@@ -65,9 +65,10 @@ Aşağıda bütün yılı gösteren bir ısı haritası var. Her hücre bir gün
 
 ![](/Figures/Trafik%20Yoğunluğu%20(Ay%20ve%20Günlere%20Göre).png)
 
-Isı haritası bize birkaç ilginç şey gösteriyor (öncelikle Temmuz - Ağustos olmayan veriyi gödteriyor tabii:).
+Isı haritası bize birkaç ilginç şey gösteriyor (öncelikle Temmuz - Ağustos olmayan veriyi gösteriyor tabii:).
 * Haftasonları, daha doğrusu Pazar günleri, trafik rahatlıyor. Bunu biliyorduk zaten:)
-* Resmi tatillerde de trafik rahatlıyor. Özellikle de Haziran başındaki bayramda hakikaten keyifli olmuş trafik.
-* Okul tatilleri o kadar da rahatlatmıyor. En azından yarı yıl tatili. Yarı yıl tatilinin ilk haftası önceki haftaya göre biraz daha iyi olsa da trafik ikinci haftası tekrar yükseliyor, hatta yılın en yoğın zamanlarından biri yaşanıyor. Yaz tatili verisi biraz daha karışık. Haziran seçimlerine kadar geçen zaman zaten tipik bir zaman değil. Ama Temmuz'un ilk 15 günü de Ekim'le karşılaştırıldığında biraz daha iyi görünüyor sadece.
+* Resmi tatillerde de trafik rahatlıyor. Özellikle de Haziran başındaki bayramda hakikaten keyifli olmuş trafik. Ama 19 Mayıs, 15 Temmuz, 23 Nisan da rahatlatmış.
+* Okul tatilleri o kadar da rahatlatmıyor. En azından yarı yıl tatili rahatlatmıyor. Yarı yıl tatilinin ilk haftası önceki haftaya göre biraz daha iyi olsa da trafik ikinci haftada tekrar yükseliyor, hatta yılın en yoğın zamanlarından biri yaşanıyor. Yaz tatili verisi biraz daha karışık. Haziran seçimlerine kadar geçen zaman zaten tipik bir zaman değil. Bayram haricinde kalan günlerde okul tatil ama yazlığa ve tatile giden muhtemelen seçim olayan yıllara göre daha az. Temmuz'un ilk 15 günü Ekim'le karşılaştırıldığında yaklaşık 0.65 stadart sapmalık bir fark var aralarında. Yani Temmuz Ekim'e göre bayağı daha iyi. Dolayısıyla ara tatil değil ama seçim olmayan yaz tatilleri trafiği rahatlatıyor diyebiliriz.
+
 
 # İBB Açık Veri Portali
