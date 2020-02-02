@@ -61,9 +61,13 @@ Tarih|Ortalama
 20	Eylül | 37.62
 27	Aralık | 36.94
 
-Aşağıda bütün yılı gösteren bir ısı haritası var. Her hücre bir günü gösteriyor. Hücre renkleri günlük ortalamaya göre değişiyor. Ortalama yükseldikçe ilgili hücrenin rengi de kızarıyor, düştükçe, yeşilleşiyor. Her hücrenin sol üst köşesinde o gün gözlemlenen maksimum trafik yazıyor, ortasındaysa o günün ortalaması. Haftasonları maviyle, resmi tatiller sarıyla işsaretlenmiş. Okul tatillerine denk gelen hüzrelerin altında da sarı bir bant var.
+Aşağıda bütün yılı gösteren bir ısı haritası var. Her hücre bir günü gösteriyor. Hücre renkleri günlük ortalamaya göre değişiyor. Ortalama yükseldikçe ilgili hücrenin rengi de kızarıyor, düştükçe, yeşilleşiyor, ortalamaya yaklaştıkça beyazlaşıyor. Her hücrenin sol üst köşesinde o gün gözlemlenen maksimum trafik yazıyor, ortasındaysa o günün ortalaması. Haftasonları maviyle, resmi tatiller sarıyla işsaretlenmiş. Okul tatillerine denk gelen hücrelerin altında da sarı bir bant var.
 
 ![](/Figures/Trafik%20Yoğunluğu%20(Ay%20ve%20Günlere%20Göre).png)
 
+Isı haritası bize birkaç ilginç şey gösteriyor (öncelikle Temmuz - Ağustos olmayan veriyi gödteriyor tabii:).
+* Haftasonları, daha doğrusu Pazar günleri, trafik rahatlıyor. Bunu biliyorduk zaten:)
+* Resmi tatillerde de trafik rahatlıyor. Özellikle de Haziran başındaki bayramda hakikaten keyifli olmuş trafik.
+* Okul tatilleri o kadar da rahatlatmıyor. En azından yarı yıl tatili. Yarı yıl tatilinin ilk haftası önceki haftaya göre biraz daha iyi olsa da trafik ikinci haftası tekrar yükseliyor, hatta yılın en yoğın zamanlarından biri yaşanıyor. Yaz tatili verisi biraz daha karışık. Haziran seçimlerine kadar geçen zaman zaten tipik bir zaman değil. Ama Temmuz'un ilk 15 günü de Ekim'le karşılaştırıldığında biraz daha iyi görünüyor sadece.
 
 # İBB Açık Veri Portali
