@@ -35,7 +35,7 @@ Portaldaki veri [xlsx formatında](https://data.ibb.gov.tr/dataset/807be791-bc23
 - 75%: 40.00
 - Maksimum: 81.00
 
-Gözlemlere baktığımızda ortalama trafiğin 26.17, stadanrt sapmanın 18.53 olduğunu görüyoruz. Gözlemler normale benzer bir şekilde dağılmamış. SAnki bir medyanı 40 civarında normal dağılım var bir de Sola yaslanmış ve modu 1-2 olan bir dağılım daha var. Ama kantiller arası mesafe iki standart sapmaya yakın, dolayısıyla eğrisi doğrusuna denk geliyor:)
+Gözlemlere baktığımızda ortalama trafiğin 26.17, standart sapmanın 18.53 olduğunu görüyoruz. Gözlemler normale benzer bir şekilde dağılmamış. Sanki  medyanı 40 civarında bir normal dağılım var, bir de sola yaslanmış ve modu 1-2 olan bir dağılım daha var. Ama kantiller arası mesafe iki standart sapmaya yakın, dolayısıyla eğrisi doğrusuna denk geliyor:)
 
 ![](/Figures/O%CC%88lc%CC%A7u%CC%88m%20Baz%C4%B1nda%20Trafik%20Yog%CC%86unlug%CC%86u%20(Dag%CC%86%C4%B1l%C4%B1m).png)
 
