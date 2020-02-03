@@ -75,12 +75,147 @@ Isı haritası bize üç (buçuk) şey gösteriyor (öncelikle Temmuz - Ağustos
 
 ## Aylar ve Haftanın Günü
 
-Hazır aylara bakmışken bütün aylara bakmakta yarar var. En 
+Hazır aylara bakmışken bütün aylara bakalım.
 
-<table border="1" class="dataframe">\n  <thead>\n    <tr style="text-align: right;">\n      <th></th>\n      <th>mean</th>\n      <th>max</th>\n      <th>min</th>\n      <th>median</th>\n      <th>std</th>\n      <th>25. Kantil</th>\n      <th>75. Kantil</th>\n    </tr>\n    <tr>\n      <th>Ay</th>\n      <th></th>\n      <th></th>\n      <th></th>\n      <th></th>\n      <th></th>\n      <th></th>\n      <th></th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <th>Ocak</th>\n      <td>25.587357</td>\n      <td>81.0</td>\n      <td>1.0</td>\n      <td>24.0</td>\n      <td>18.103894</td>\n      <td>9.0</td>\n      <td>38.0</td>\n    </tr>\n    <tr>\n      <th>Şubat</th>\n      <td>26.600398</td>\n      <td>76.0</td>\n      <td>1.0</td>\n      <td>26.0</td>\n      <td>17.882722</td>\n      <td>9.0</td>\n      <td>40.0</td>\n    </tr>\n    <tr>\n      <th>Mart</th>\n      <td>24.780998</td>\n      <td>76.0</td>\n      <td>1.0</td>\n      <td>26.0</td>\n      <td>18.659537</td>\n      <td>6.0</td>\n      <td>40.0</td>\n    </tr>\n    <tr>\n      <th>Nisan</th>\n      <td>26.017552</td>\n      <td>71.0</td>\n      <td>1.0</td>\n      <td>27.0</td>\n      <td>17.751961</td>\n      <td>8.0</td>\n      <td>40.0</td>\n    </tr>\n    <tr>\n      <th>Mayıs</th>\n      <td>22.820428</td>\n      <td>71.0</td>\n      <td>1.0</td>\n      <td>22.0</td>\n      <td>18.024812</td>\n      <td>4.0</td>\n      <td>36.0</td>\n    </tr>\n    <tr>\n      <th>Haziran</th>\n      <td>22.757448</td>\n      <td>81.0</td>\n      <td>1.0</td>\n      <td>20.0</td>\n      <td>17.857419</td>\n      <td>4.0</td>\n      <td>38.0</td>\n    </tr>\n    <tr>\n      <th>Temmuz</th>\n      <td>23.025841</td>\n      <td>56.0</td>\n      <td>1.0</td>\n      <td>26.0</td>\n      <td>14.641085</td>\n      <td>9.0</td>\n      <td>35.0</td>\n    </tr>\n    <tr>\n      <th>Ağustos</th>\n      <td>NaN</td>\n      <td>NaN</td>\n      <td>NaN</td>\n      <td>NaN</td>\n      <td>NaN</td>\n      <td>NaN</td>\n      <td>NaN</td>\n    </tr>\n    <tr>\n      <th>Eylül</th>\n      <td>26.498176</td>\n      <td>80.0</td>\n      <td>1.0</td>\n      <td>29.0</td>\n      <td>18.854179</td>\n      <td>6.0</td>\n      <td>42.0</td>\n    </tr>\n    <tr>\n      <th>Ekim</th>\n      <td>26.798295</td>\n      <td>80.0</td>\n      <td>1.0</td>\n      <td>27.0</td>\n      <td>19.262072</td>\n      <td>8.0</td>\n      <td>42.0</td>\n    </tr>\n    <tr>\n      <th>Kasım</th>\n      <td>30.309482</td>\n      <td>76.0</td>\n      <td>1.0</td>\n      <td>31.0</td>\n      <td>19.240169</td>\n      <td>11.0</td>\n      <td>45.0</td>\n    </tr>\n    <tr>\n      <th>Aralık</th>\n      <td>30.892396</td>\n      <td>80.0</td>\n      <td>1.0</td>\n      <td>31.0</td>\n      <td>19.576070</td>\n      <td>11.0</td>\n      <td>45.0</td>\n    </tr>\n  </tbody>\n</table>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Ay</th>
+      <th>Ortalama</th>
+      <th>Maksimum</th>
+      <th>Minimum</th>
+      <th>Medyan</th>
+      <th>Standart Sapma</th>
+      <th>25. Kantil</th>
+      <th>75. Kantil</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Ocak</th>
+      <td>25.59</td>
+      <td>81.0</td>
+      <td>1.0</td>
+      <td>24.0</td>
+      <td>18.109</td>
+      <td>9.0</td>
+      <td>38.0</td>
+    </tr>
+    <tr>
+      <th>Şubat</th>
+      <td>26.609</td>
+      <td>76.0</td>
+      <td>1.0</td>
+      <td>26.0</td>
+      <td>17.889</td>
+      <td>9.0</td>
+      <td>40.0</td>
+    </tr>
+    <tr>
+      <th>Mart</th>
+      <td>24.79</td>
+      <td>76.0</td>
+      <td>1.0</td>
+      <td>26.0</td>
+      <td>18.66</td>
+      <td>6.0</td>
+      <td>40.0</td>
+    </tr>
+    <tr>
+      <th>Nisan</th>
+      <td>26.02</td>
+      <td>71.0</td>
+      <td>1.0</td>
+      <td>27.0</td>
+      <td>17.75</td>
+      <td>8.0</td>
+      <td>40.0</td>
+    </tr>
+    <tr>
+      <th>Mayıs</th>
+      <td>22.82</td>
+      <td>71.0</td>
+      <td>1.0</td>
+      <td>22.0</td>
+      <td>18.02</td>
+      <td>4.0</td>
+      <td>36.0</td>
+    </tr>
+    <tr>
+      <th>Haziran</th>
+      <td>22.76</td>
+      <td>81.0</td>
+      <td>1.0</td>
+      <td>20.0</td>
+      <td>17.86</td>
+      <td>4.0</td>
+      <td>38.0</td>
+    </tr>
+    <tr>
+      <th>Temmuz</th>
+      <td>23.03</td>
+      <td>56.0</td>
+      <td>1.0</td>
+      <td>26.0</td>
+      <td>14.64</td>
+      <td>9.0</td>
+      <td>35.0</td>
+    </tr>
+    <tr>
+      <th>Ağustos</th>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>Eylül</th>
+      <td>26.50</td>
+      <td>80.0</td>
+      <td>1.0</td>
+      <td>29.0</td>
+      <td>18.85</td>
+      <td>6.0</td>
+      <td>42.0</td>
+    </tr>
+    <tr>
+      <th>Ekim</th>
+      <td>26.8*</td>
+      <td>80.0</td>
+      <td>1.0</td>
+      <td>27.0</td>
+      <td>19.26</td>
+      <td>8.0</td>
+      <td>42.0</td>
+    </tr>
+    <tr>
+      <th>Kasım</th>
+      <td>30.31</td>
+      <td>76.0</td>
+      <td>1.0</td>
+      <td>31.0</td>
+      <td>19.24</td>
+      <td>11.0</td>
+      <td>45.0</td>
+    </tr>
+    <tr>
+      <th>Aralık</th>
+      <td>30.89</td>
+      <td>80.0</td>
+      <td>1.0</td>
+      <td>31.0</td>
+      <td>19.58</td>
+      <td>11.0</td>
+      <td>45.0</td>
+    </tr>
+  </tbody>
+</table>
 
+![](/Figures/Trafik%20Yog%CC%86unlug%CC%86u%20(Aylara%20Go%CC%88re).png)
 
-
-
+En kötü aylar Kasım ve Aralık. Eylül ve Ekim onların altoında bir başka seviye. Şubat, Mart ve Nisan ortalama açısından Eylül ve Ekime benzese de 75. kantilleri daha düşük bir grup oluşturuyor. Ocak bu gruptan da daha düşük. Mayıs Haziran en düşük grubu oluşturuyorlar. Temmuz verisi eksik olduğu için ay bazında karşılaştırmak çok anlamlı deği. Bu durumda sanki ilk dört ay ortalamanın altı, sonraki dört ay düşük, sonra gelen Eylül ve Ekim yüksek ve son olarak Kasım ve Aralık en yğksek gibi bir sıralama yapabiliriz sanki.
 
 # İBB Açık Veri Portali
