@@ -65,10 +65,20 @@ Aşağıda bütün yılı gösteren bir ısı haritası var. Her hücre bir gün
 
 ![](/Figures/Trafik%20Yoğunluğu%20(Ay%20ve%20Günlere%20Göre).png)
 
-Isı haritası bize birkaç ilginç şey gösteriyor (öncelikle Temmuz - Ağustos olmayan veriyi gösteriyor tabii:).
+Isı haritası bize üç (buçuk) şey gösteriyor (öncelikle Temmuz - Ağustos olmayan veriyi gösteriyor tabii:).
 * Haftasonları, daha doğrusu Pazar günleri, trafik rahatlıyor. Bunu biliyorduk zaten:)
 * Resmi tatillerde de trafik rahatlıyor. Özellikle de Haziran başındaki bayramda hakikaten keyifli olmuş trafik. Ama 19 Mayıs, 15 Temmuz, 23 Nisan da rahatlatmış.
-* Okul tatilleri o kadar da rahatlatmıyor. En azından yarı yıl tatili rahatlatmıyor. Yarı yıl tatilinin ilk haftası önceki haftaya göre biraz daha iyi olsa da trafik ikinci haftada tekrar yükseliyor, hatta yılın en yoğın zamanlarından biri yaşanıyor. Yaz tatili verisi biraz daha karışık. Haziran seçimlerine kadar geçen zaman zaten tipik bir zaman değil. Bayram haricinde kalan günlerde okul tatil ama yazlığa ve tatile giden muhtemelen seçim olayan yıllara göre daha az. Temmuz'un ilk 15 günü Ekim'le karşılaştırıldığında yaklaşık 0.65 stadart sapmalık bir fark var aralarında. Yani Temmuz Ekim'e göre bayağı daha iyi. Dolayısıyla ara tatil değil ama seçim olmayan yaz tatilleri trafiği rahatlatıyor diyebiliriz.
+* Yarı yıl tatili trafiği pek rahatlatmıyor. Yarı yıl tatilinin ilk haftası önceki haftaya göre biraz daha iyi olsa da trafik ikinci haftada tekrar yükseliyor, hatta yılın en yoğın zamanlarından biri yaşanıyor. 
+* Yaz tatili verisi biraz daha karışık. Haziran seçimlerine kadar geçen zaman zaten tipik bir zaman değil. Bayram haricinde kalan günlerde okul tatil ama yazlığa ve tatile giden muhtemelen seçim olayan yıllara göre daha az. Temmuz'un ilk 15 gününü Ekim'in ilk 15 günüyle karşılaştırdığımızda ortalamar arasında 6.6 puanlık bir fark (23.32, 29.92), 75. kantilleri arasında da 9 puanlık (35, 44) bir fark görüyoruz. Yani Temmuz trafiği Ekim'e göre bayağı daha iyi. Zaten aşağıda ilk 15 günleri karşılaştıran grafikte de görebilrisiniz.
+
+![](/Figures/Trafik%20Yog%CC%86unlug%CC%86u%20(Temmuz%201-15%2C%20Ekim%201-15%20Kars%CC%A7%C4%B1las%CC%A7t%C4%B1rmas%C4%B1).png)
+
+## Aylar ve Haftanın Günü
+
+Hazır aylara bakmışken bütün aylara bakmakta yarar var. En 
+
+'\\begin{tabular}{lrrrrrrr}\n\\toprule\n{} &       mean &   max &  min &  median &        std &  25. Kantil &  75. Kantil \\\\\nAy      &            &       &      &         &            &             &             \\\\\n\\midrule\nOcak    &  25.587357 &  81.0 &  1.0 &    24.0 &  18.103894 &         9.0 &        38.0 \\\\\nŞubat   &  26.600398 &  76.0 &  1.0 &    26.0 &  17.882722 &         9.0 &        40.0 \\\\\nMart    &  24.780998 &  76.0 &  1.0 &    26.0 &  18.659537 &         6.0 &        40.0 \\\\\nNisan   &  26.017552 &  71.0 &  1.0 &    27.0 &  17.751961 &         8.0 &        40.0 \\\\\nMayıs   &  22.820428 &  71.0 &  1.0 &    22.0 &  18.024812 &         4.0 &        36.0 \\\\\nHaziran &  22.757448 &  81.0 &  1.0 &    20.0 &  17.857419 &         4.0 &        38.0 \\\\\nTemmuz  &  23.025841 &  56.0 &  1.0 &    26.0 &  14.641085 &         9.0 &        35.0 \\\\\nAğustos &        NaN &   NaN &  NaN &     NaN &        NaN &         NaN &         NaN \\\\\nEylül   &  26.498176 &  80.0 &  1.0 &    29.0 &  18.854179 &         6.0 &        42.0 \\\\\nEkim    &  26.798295 &  80.0 &  1.0 &    27.0 &  19.262072 &         8.0 &        42.0 \\\\\nKasım   &  30.309482 &  76.0 &  1.0 &    31.0 &  19.240169 &        11.0 &        45.0 \\\\\nAralık  &  30.892396 &  80.0 &  1.0 &    31.0 &  19.576070 &        11.0 &        45.0 \\\\\n\\bottomrule\n\\end{tabular}'
+
 
 
 # İBB Açık Veri Portali
