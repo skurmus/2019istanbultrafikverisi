@@ -4,7 +4,7 @@
 # Top 10
 
 # İstanbul Trafik İndeksi
-İstanbul Trafik İndeksi Raporu [İstanbul Büyükşehir Belediyesi Açık Veri Portalı](https://data.ibb.gov.tr/dataset/trafik-indeksi-raporu)'nda yayınlanan bir veri seti. Veri seti nasıl oluşmuş, indeks tam olarak neyi açıklıyor aslında veri setinde yazmıyor. Muhtemelen İBB Cep Trafik uygulamasında, sağ üst köşede yazan Trafik Yoğunluğu verisi buradaki sayı.
+İstanbul Trafik İndeksi Raporu [İstanbul Büyükşehir Belediyesi Açık Veri Portalı](https://data.ibb.gov.tr/dataset/trafik-indeksi-raporu)'nda yayınlanan bir veri seti. Veri seti nasıl oluşmuş, indeks tam olarak neyi açıklıyor aslında veri setinde yazmıyor. Muhtemelen İBB Cep Trafik uygulamasında, sağ üst köşede yazan Trafik Yoğunluğu sayısı buradaki veriyle aynı.
 
 ## Orijinal format
 Portaldaki veri [xlsx formatında](https://data.ibb.gov.tr/dataset/807be791-bc23-4f25-afeb-35ee9a4df43c/resource/e0a9dfd3-1579-4412-ab46-e54fb78e5b4d/download/trafik-indeks-raporu.xlsx). İçinde üç kolon var:
@@ -19,7 +19,7 @@ Portaldaki veri [xlsx formatında](https://data.ibb.gov.tr/dataset/807be791-bc23
 
 **ID** anahtar olsun diye eklenmişe benziyor. Trafik İndeksi Tarihi varken ihtiyaç yok. Dolayısıyla ben analiz için veriyi alırken kullanmadım.
 
-255'li değerleri çıkarttıktan sonra geriye 86,982 gözlem kalıyor. Bu gözlemler 308 güne ait. Yani 57 günde hiç gözlem yok (tüm günlerin %15.6'sı). En uzun eksik veri serisi Temmuz - Eylül arası (18.07.2019 11:26 - 09.09.2019 09:40). Mart'da da kısa bir veri kaybı görünüyor (22.03.2019 14:00 - 27.03.2019 11:31). Son olarak Mayıs'da sorunlu tek bir gün var: 21 Mayıs. Geri kalan günlerin 204 tanesinde tam veri var (287 ve üstü gözlem), 94 tanesinde de 12 ya da daha az eksik var. Geri kalan 8 tanesindeyse 117 ile 250 arası gözlem var. 24 Ocak biarz sorunlu, 22 gözlem var sadece. 
+255'li değerleri çıkarttıktan sonra geriye 86,982 gözlem kalıyor. Bu gözlemler 308 güne ait. Yani 57 günde hiç gözlem yok (tüm günlerin %15.6'sı). En uzun eksik veri serisi Temmuz - Eylül arası (18.07.2019 11:26 - 09.09.2019 09:40). Mart'da da kısa bir veri kaybı görünüyor (22.03.2019 14:00 - 27.03.2019 11:31). Son olarak Mayıs'da sorunlu tek bir gün var: 21 Mayıs. Geri kalan günlerin 204 tanesinde tam veri var (287 ve üstü gözlem), 94 tanesinde de 12 ya da daha az eksik var. Geri kalan 8 tanesindeyse 117 ile 250 arası gözlem var. 24 Ocak biraz sorunlu, 22 gözlem var sadece. 
 
 ![](/Figures/Trafik%20Yog%CC%86unlug%CC%86u%20(Gu%CC%88nlu%CC%88k%20Go%CC%88zlem%20Say%C4%B1s%C4%B1).png)
 
@@ -69,7 +69,7 @@ Isı haritası bize dört (hatta üç buçuk:) şey gösteriyor (öncelikle Temm
 1. Haftasonları, daha doğrusu Pazar günleri, trafik rahatlıyor. Bunu biliyorduk zaten:)
 2. Resmi tatillerde de trafik rahatlıyor. Özellikle de Haziran başındaki bayramda hakikaten keyifli olmuş trafik. Ama 19 Mayıs, 15 Temmuz, 23 Nisan da rahatlatmış.
 3. Yarı yıl tatili trafiği pek rahatlatmıyor. Yarı yıl tatilinin ilk haftası önceki haftaya göre biraz daha iyi olsa da trafik ikinci haftada tekrar yükseliyor, hatta yılın en yoğın zamanlarından biri yaşanıyor.
-4. Yaz tatili verisi biraz daha karışık. Haziran seçimlerine kadar geçen zaman zaten tipik bir zaman değil. Bayram haricinde kalan günlerde okul tatil ama yazlığa ve tatile giden muhtemelen seçim olayan yıllara göre daha az. Temmuz'un ilk 15 gününü Ekim'in ilk 15 günüyle karşılaştırdığımızda ortalamalar arasında 6.6 puanlık bir fark (23.32, 29.92), 75. kantilleri arasında da 9 puanlık (35, 44) bir fark görüyoruz. Yani Temmuz trafiği Ekim'e göre bayağı daha iyi. Zaten aşağıda ilk 15 günleri karşılaştıran grafikte de görebilrisiniz.
+4. Yaz tatili verisi biraz daha karışık. Haziran seçimlerine kadar geçen zaman zaten tipik bir zaman değil. Bayram haricinde kalan günlerde okul tatil ama yazlığa ve tatile giden muhtemelen seçim olayan yıllara göre daha az. Temmuz'un ilk 15 gününü Ekim'in ilk 15 günüyle karşılaştırdığımızda ortalamalar arasında 6.6 puanlık bir fark (23.32, 29.92), 75. kantilleri arasında da 9 puanlık (35, 44) bir fark görüyoruz. Yani Temmuz trafiği Ekim'e göre bayağı daha iyi. Bunu aşağıda bu ayların ilk 15 günlerini karşılaştıran grafikte de görebilrisiniz.
 
 ![](/Figures/Trafik%20Yog%CC%86unlug%CC%86u%20(Temmuz%201-15%2C%20Ekim%201-15%20Kars%CC%A7%C4%B1las%CC%A7t%C4%B1rmas%C4%B1).png)
 
@@ -216,7 +216,7 @@ Hazır aylara bakmışken bütün aylara bakabiliriz.
 
 ![](/Figures/Trafik%20Yog%CC%86unlug%CC%86u%20(Aylara%20Go%CC%88re).png)
 
-En kötü aylar Kasım ve Aralık. Eylül ve Ekim onların altoında bir başka seviye. Şubat, Mart ve Nisan ortalama açısından Eylül ve Ekime benzese de 75. kantilleri daha düşük bir grup oluşturuyor. Ocak bu gruptan da daha düşük. Mayıs Haziran en düşük grubu oluşturuyorlar. Temmuz verisi eksik olduğu için ay bazında karşılaştırmak çok anlamlı deği. Bu durumda sanki ilk dört ay ortalamanın altı, sonraki dört ay düşük, sonra gelen Eylül ve Ekim yüksek ve son olarak Kasım ve Aralık en yğksek gibi bir sıralama yapabiliriz sanki.
+En kötü aylar Kasım ve Aralık. Eylül ve Ekim onların altonda bir başka seviye. Şubat, Mart ve Nisan ortalama açısından Eylül ve Ekime benzese de 75. kantilleri daha düşük bir grup oluşturuyor. Ocak bu gruptan da daha düşük. Mayıs-Haziran en düşük grubu oluşturuyorlar. Temmuz verisi eksik olduğu için ay bazında karşılaştırmak çok anlamlı deği. Bu durumda sanki ilk dört ay ortalamanın altı, sonraki dört ay düşük, sonra gelen Eylül ve Ekim yüksek ve son olarak Kasım ve Aralık en yüksek gibi bir sıralama yapabiliriz sanki.
 
 ##  Haftanın Günü ve Saat
 
@@ -230,7 +230,7 @@ Veriye haftanın günleri ve saatler bazında baktığımızda da göze çarpan 
 4. Cumartesi saat 11'e kadar trafik sakin, ama 11^den sonra hafta içi 16:00 - 17:00 trafiğine benzeyen bir seviyeye çıkıyor ve akşam sekize kadar böyle devam ediyor.
 5. Pazar günleri trafik Cumartesiye göre iki saat daha geç başlıyor. Saat 14:00 gibi. Sonra akşam sekize kadar hafta içi 13:00 - 15:00 arası trafik seviyesinde devam ediyor.
 6. Akşam dokuzla geceryarısı arası trafik de Pazartesi'den başlayarak her gün yükseliyor. Bu saatlerde Pazar gecesi Cumartesi'den pek farklı değil. Sadece gece 23:00 geceyarısı arasında Pazarlar daha düşük.
-7. Geceyarısından sonra trafik hızla düşüyor ve saat sabah altıdan sonra tekrar yükselmeye başlıyor. Cumartesi, Pazar ve Pazartesi geceyarısıyla saba bir arasında trafik diğer gecelere göre daha fazla.
+7. Geceyarısından sonra trafik hızla düşüyor ve saat sabah altıdan sonra tekrar yükselmeye başlıyor. Cumartesi, Pazar ve Pazartesi geceyarısıyla sabah bir arasında trafik diğer gecelere göre daha fazla.
 
 <table border="1" class="dataframe">
   <thead>
@@ -322,5 +322,128 @@ Veriye haftanın günleri ve saatler bazında baktığımızda da göze çarpan 
 ![](/Figures/Trafik%20Yog%CC%86unlug%CC%86u%20(Haftan%C4%B1n%20Gu%CC%88nu%CC%88ne%20Go%CC%88re).png)
 
 ## Vakitler
+
+Teker teker saatler yerine günüparçalara bölerek de bakmak mümkün. Buna vakitler diyelim (daha iyi bir isim bulamadım). Ben yaptığım basit we araştırmasında trafikle ilgili bu konuda bir standart sınıflama bulamadım. Onun için buradaki sınıflama bir İstanbullu olarak benim deneyimlerime ve verinin kendisine biraz dayanıyor. Vakitler şöyle:
+
+Vakit|Saatler
+-----|-------
+Sabah Yoğunluğu|07:00-09:59, 
+Öğleden Önce|10:00-12:59, 
+Öğlen|13:00-14:59, 
+Öğleden Sonra|15:00-16:59, 
+Akşam Yoğunluğu|17:00-19:59, 
+Gece|20:00-22:59, 
+Gece Yarısı|23:00-01:59, 
+Sabaha Karşı|02:00-04:59, 
+Sabah|05:00-06:59
+
+laf
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Vakit</th>
+      <th>Ortalama</th>
+      <th>Maksimum</th>
+      <th>Minimum</th>
+      <th>Medyan</th>
+      <th>Standart Sapma</th>
+      <th>25. Kantil</th>
+      <th>75. Kantil</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Akşam Yoğunluğu 17:00-19:59</th>
+      <td>50.71</td>
+      <td>81.0</td>
+      <td>2.0</td>
+      <td>53.0</td>
+      <td>13.40</td>
+      <td>44.0</td>
+      <td>60.0</td>
+    </tr>
+    <tr>
+      <th>Öğleden Sonra 15:00-16:59</th>
+      <td>42.19</td>
+      <td>81.0</td>
+      <td>2.0</td>
+      <td>42.0</td>
+      <td>9.58</td>
+      <td>36.0</td>
+      <td>49.0</td>
+    </tr>
+    <tr>
+      <th>Öğlen 13:00-14:59</th>
+      <td>34.70</td>
+      <td>65.0</td>
+      <td>2.0</td>
+      <td>35.0</td>
+      <td>9.34</td>
+      <td>29.0</td>
+      <td>40.0</td>
+    </tr>
+    <tr>
+      <th>Sabah Yoğunluğu 07:00-09:59</th>
+      <td>31.93</td>
+      <td>72.0</td>
+      <td>1.0</td>
+      <td>36.0</td>
+      <td>17.23</td>
+      <td>17.0</td>
+      <td>45.0</td>
+    </tr>
+    <tr>
+      <th>Öğleden Önce 10:00-12:59</th>
+      <td>31.62</td>
+      <td>62.0</td>
+      <td>1.0</td>
+      <td>35.0</td>
+      <td>10.99</td>
+      <td>27.0</td>
+      <td>38.0</td>
+    </tr>
+    <tr>
+      <th>Gece 20:00-22:59</th>
+      <td>23.58</td>
+      <td>63.0</td>
+      <td>1.0</td>
+      <td>22.0</td>
+      <td>10.54</td>
+      <td>17.0</td>
+      <td>31.0</td>
+    </tr>
+    <tr>
+      <th>Gece Yarısı 23:00-01:59</th>
+      <td>10.65</td>
+      <td>47.0</td>
+      <td>1.0</td>
+      <td>9.0</td>
+      <td>7.92</td>
+      <td>4.0</td>
+      <td>15.0</td>
+    </tr>
+    <tr>
+      <th>Sabah 05:00-06:59</th>
+      <td>7.75</td>
+      <td>36.0</td>
+      <td>1.0</td>
+      <td>6.0</td>
+      <td>6.14</td>
+      <td>2.0</td>
+      <td>11.0</td>
+    </tr>
+    <tr>
+      <th>Sabaha Karşı 02:00-04:59</th>
+      <td>4.71</td>
+      <td>42.0</td>
+      <td>1.0</td>
+      <td>4.0</td>
+      <td>3.92</td>
+      <td>2.0</td>
+      <td>6.0</td>
+    </tr>
+  </tbody>
+</table>
 
 # İBB Açık Veri Portali
