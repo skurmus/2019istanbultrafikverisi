@@ -327,17 +327,19 @@ Teker teker saatler yerine günüparçalara bölerek de bakmak mümkün. Buna va
 
 Vakit|Saatler
 -----|-------
-Sabah Yoğunluğu|07:00-09:59, 
-Öğleden Önce|10:00-12:59, 
-Öğlen|13:00-14:59, 
-Öğleden Sonra|15:00-16:59, 
-Akşam Yoğunluğu|17:00-19:59, 
-Gece|20:00-22:59, 
-Gece Yarısı|23:00-01:59, 
-Sabaha Karşı|02:00-04:59, 
+Sabah Yoğunluğu|07:00-09:59 
+Öğleden Önce|10:00-12:59 
+Öğlen|13:00-14:59 
+Öğleden Sonra|15:00-16:59 
+Akşam Yoğunluğu|17:00-19:59 
+Gece|20:00-22:59 
+Gece Yarısı|23:00-01:59 
+Sabaha Karşı|02:00-04:59 
 Sabah|05:00-06:59
 
-laf
+Aşağıdaki grafikte ve tabloda da göreceğiniz gibi, Akşam Yoğunluğu en yoğun vakit. Şaşırtıcı bir şekilde ikinci en yoğun vakit Sabah Yoğunluğu değil. Sabah Yoğunluğu ortalama ve medyannun rafiği Akşam Yoğunluğuna kadar olan vakitlere çok yakın ya da altında. Tabii Sabah Yoğunluğu kendini izleyen bu diğer vakitlere göre çok daha geniş bir dağılıma sahip. Yani ortalama belki düşük ama bazı günler çok fazla trafik olma ihtimali de var. Bir de ilginç olan Gece Yarısı ve Sabaha Karşı vakitlerindeki yüksek değerler. Örneğin 26 ve 27 Mayıs geceyarısında trafik indeksi bayağı yükselmiş. Benzer bir şekilde 1 Nisan ve 5 Ekim tarihlerinde de sabaha karşı bayağı yoğun trafik görüyoruz.
+
+![](/Figures/Gu%CC%88nu%CC%88n%20Vakitleri%20Dag%CC%86%C4%B1l%C4%B1m%20Kars%CC%A7%C4%B1las%CC%A7t%C4%B1rmas%C4%B1.png)
 
 <table border="1" class="dataframe">
   <thead>
@@ -446,4 +448,9 @@ laf
   </tbody>
 </table>
 
-# İBB Açık Veri Portali
+# Vakitler Birbirini Ne Kadar Etkiliyor?
+
+# "Dün Trafik Çok Kötüydü Bugün Millet Çıkmamış" Diye Bir Şey Gerçekten Var mı?
+
+# "Bugün X, Millet Erken Çıkmış/Geç Çıkmış Şimdi Trafik Rahat" Diye Bir Şey Gerçekten Var mı?
+
