@@ -337,7 +337,7 @@ Gece Yarısı|23:00-01:59
 Sabaha Karşı|02:00-04:59 
 Sabah|05:00-06:59
 
-Aşağıdaki grafikte ve tabloda da göreceğiniz gibi, Akşam Yoğunluğu en yoğun vakit. Şaşırtıcı bir şekilde ikinci en yoğun vakit Sabah Yoğunluğu değil. Sabah Yoğunluğu ortalama ve medyannun rafiği Akşam Yoğunluğuna kadar olan vakitlere çok yakın ya da altında. Tabii Sabah Yoğunluğu kendini izleyen bu diğer vakitlere göre çok daha geniş bir dağılıma sahip. Yani ortalama belki düşük ama bazı günler çok fazla trafik olma ihtimali de var. Bir de ilginç olan Gece Yarısı ve Sabaha Karşı vakitlerindeki yüksek değerler. Örneğin 26 ve 27 Mayıs geceyarısında trafik indeksi bayağı yükselmiş. Benzer bir şekilde 1 Nisan ve 5 Ekim tarihlerinde de sabaha karşı bayağı yoğun trafik görüyoruz.
+Aşağıdaki grafikte ve tabloda da göreceğiniz gibi, Akşam Yoğunluğu en yoğun vakit. Şaşırtıcı bir şekilde ikinci en yoğun vakit Sabah Yoğunluğu değil. Sabah Yoğunluğunun ortalama ve medyan trafiği Akşam Yoğunluğuna kadar olan vakitlere çok yakın ya da altında. Tabii Sabah Yoğunluğu kendini izleyen bu diğer vakitlere göre daha geniş bir dağılıma sahip. Yani ortalama belki düşük ama bazı günler çok fazla trafik olma ihtimali de var. Bir de ilginç olan Gece Yarısı ve Sabaha Karşı vakitlerindeki yüksek değerler. Örneğin 26 ve 27 Mayıs geceyarısında trafik indeksi bayağı yükselmiş. Benzer bir şekilde 1 Nisan ve 5 Ekim tarihlerinde de sabaha karşı bayağı yoğun trafik görüyoruz.
 
 ![](/Figures/Gu%CC%88nu%CC%88n%20Vakitleri%20Dag%CC%86%C4%B1l%C4%B1m%20Kars%CC%A7%C4%B1las%CC%A7t%C4%B1rmas%C4%B1.png)
 
@@ -449,6 +449,19 @@ Aşağıdaki grafikte ve tabloda da göreceğiniz gibi, Akşam Yoğunluğu en yo
 </table>
 
 # Vakitler Birbirini Ne Kadar Etkiliyor?
+Vakitlerin birbirini etkilemesini bekliyor muyuz? Yani sabah çok tafik varsa sonraki saatlerde de trafiğin yoğun olmasını ya da tam tesini bekliyor muyuz? Aşağıda aynı gün içindeki vakitlerin birbiriyle korelasyonu var. Bire yakın sayılar iki vaktin tafiklerinin birbiriyle pozitif olarak çok ilişkili olduğunu (yani biri yüksekken öbürünün de yüksek olduğunu), eksi bire yakın sayılarsa negatif olarak çok ilişkili olduğunu (yani biri yüksekken diğerinin düşük olduğunu) gösteriyor. Korelasyon sıfıra yaklaştıkça iki vaktin yoğunluğunun birbileriyle bir ilişkisi olmadığı anlamına geliyor.
+
+![](/Figures/Gu%CC%88nu%CC%88n%20Vakitleri%20Trafik%20Yog%CC%86unluk%20Korelasyonu%20(2).png)
+
+Korelasyonların ısı haritasına baktığımda gözüme şunlar çarpıyor:
+
+- Gece Yarısı, Sabaha Karşı ve Sabah yoğunlukları günün geri kalanıyle pek ilişkili değil.
+- Sabah Yoğunluğu en çok ve ciddi anlamda kendinden sonra gelen Öğleden Önce trafiğini etkiliyor. Akşam Yoğunluğunu da aynı oranda olmasa bile etkiliyor. Yani sabah trafik kötüyse genelde akşam da kötü oluyor.
+- Öğleden Önce, Akşam Yğunluğunu anlamak için Sabah Yoğunluğundan daha iyi bir gösterge.
+- Öğlen trafiğine bakarak sadece Öğleden Sonra trafiğiyle ilgili bir şeyler söylemek mümkün. Başka vakitlere pek ilgisi yok.
+- Öğleden Sonra trafiği de Akşam Yoğunluğunu tahmin etmek için fena değil. Ama Sabah ya da Öğleden Önce trafiği kadar etkili değil.
+- Akşam Yoğunluğu ve Gece trafiklerine bakarak kendilerinden sonra gelen vakitlerel ilgili pek bir şey söylemek mümkün değil.
+
 
 # "Dün Trafik Çok Kötüydü Bugün Millet Çıkmamış" Diye Bir Şey Gerçekten Var mı?
 
