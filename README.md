@@ -449,7 +449,7 @@ Aşağıdaki grafikte ve tabloda da göreceğiniz gibi, Akşam Yoğunluğu en yo
 </table>
 
 # Vakitler Birbirini Ne Kadar Etkiliyor?
-Vakitlerin birbirini etkilemesini bekliyor muyuz? Yani sabah çok tafik varsa sonraki saatlerde de trafiğin yoğun olmasını ya da tam tesini bekliyor muyuz? Aşağıda aynı gün içindeki vakitlerin birbiriyle korelasyonu var. Bire yakın sayılar iki vaktin tafiklerinin birbiriyle pozitif olarak çok ilişkili olduğunu (yani biri yüksekken öbürünün de yüksek olduğunu), eksi bire yakın sayılarsa negatif olarak çok ilişkili olduğunu (yani biri yüksekken diğerinin düşük olduğunu) gösteriyor. Korelasyon sıfıra yaklaştıkça iki vaktin yoğunluğunun birbileriyle bir ilişkisi olmadığı anlamına geliyor.
+Vakitlerin birbirini etkilemesini bekliyor muyuz? Yani sabah çok tafik varsa sonraki saatlerde de trafiğin yoğun olmasını ya da tam tesini bekliyor muyuz? Aşağıda aynı gün içindeki vakitlerin birbiriyle korelasyonu var. Bire yakın sayılar iki vaktin tafiklerinin birbiriyle pozitif olarak çok ilişkili olduğunu (yani biri yüksekken öbürünün de yüksek olduğunu), eksi bire yakın sayılarsa negatif olarak çok ilişkili olduğunu (yani biri yüksekken diğerinin düşük olduğunu) gösteriyor. Korelasyon sıfıra yaklaştıkça iki vaktin yoğunluğunun birbileriyle bir ilişkisi olmadığı anlamına geliyor (korelasyonları daha detaylı görmek isterseniz [şuradan bakabilirsiniz](https://github.com/skurmus/2019istanbultrafikverisi/blob/master/Figures/Gu%CC%88nu%CC%88n%20Vakitleri%20Trafik%20Yog%CC%86unluk%20Korelasyonu%20(Scatter%20ve%20Fit).png)).
 
 ![](/Figures/Gu%CC%88nu%CC%88n%20Vakitleri%20Trafik%20Yog%CC%86unluk%20Korelasyonu%20(2).png)
 
@@ -460,10 +460,47 @@ Korelasyonların ısı haritasına baktığımda gözüme şunlar çarpıyor:
 - Öğleden Önce, Akşam Yğunluğunu anlamak için Sabah Yoğunluğundan daha iyi bir gösterge.
 - Öğlen trafiğine bakarak sadece Öğleden Sonra trafiğiyle ilgili bir şeyler söylemek mümkün. Başka vakitlere pek ilgisi yok.
 - Öğleden Sonra trafiği de Akşam Yoğunluğunu tahmin etmek için fena değil. Ama Sabah ya da Öğleden Önce trafiği kadar etkili değil.
-- Akşam Yoğunluğu ve Gece trafiklerine bakarak kendilerinden sonra gelen vakitlerel ilgili pek bir şey söylemek mümkün değil.
-
+- Akşam Yoğunluğu ve Gece trafiklerine bakarak kendilerinden sonra gelen vakitlerle ilgili pek bir şey söylemek mümkün değil.
 
 # "Dün Trafik Çok Kötüydü Bugün Millet Çıkmamış" Diye Bir Şey Gerçekten Var mı?
+
+Bu İstanbul'da çok sık yapılan bir geyik: dün trafik çok kötüydü, bugün kimse çıkmamış; ya da tam tersi, dün trafik iyi olunca bugün herkes çıkmış. Acaba doğru mu? Aşağıda iki ardışık günün Sabah Yoğunluğu ve Akşam Yoğunluğu değerlerinin birbirleriyle ve ilgili günlerin en yüksek ve ortalama değerleriyle ilişkisi var.
+
+![](/Figures/Ard%C4%B1s%CC%A7%C4%B1k%20Gu%CC%88nlerinin%20Vakitlerinin%20Trafik%20Yog%CC%86unluk%20Korelasyonu.png)
+
+Günlerin kendi içinde yukarıda bahsettiğim ilişkiler tabii burada da görünüyor ama düne bakıp bugünle ilgili pek bir şey söylemek mümkün değil pek. Ama burada atladığımız bir şey var: haftanın bazı gümnleri kendinden önce ya da sonra gelen günlerden çok farklı. Yani Pazar'a bakıp Pazartesiyi anlamaya çalışmak, ya da Cuma'ya bakıp Cumartesi'yi tahmin etmek çok anlamlı değil. Onun için yukarıdaki korelasyon ısı haritasına bir de sadece Salı, Çarşamba, Perşembe ve Cuma için bakalım.
+
+![](/Figures/Ard%C4%B1s%CC%A7%C4%B1k%20Gu%CC%88nlerin%20(Sal%C4%B1%20-%20Cuma)%20Vakitlerinin%20Trafik%20Yog%CC%86unluk%20Korelasyonu.png)
+
+Tüm günleri aldığımız korelasyonlara göre daha yüksek bu günlerdeki korelasyonlar ama halen çok da etkili değil. Üstelik negatif ilişkiler beklerken halen pozitif ilişkiler görüyoruz. Yani veri bu şekliyle İstanbulluların inançlarını pek desteklemiyor.
+
+Bu kadar İstanbul'lu yanlış değildir diyerek biraz daha kurcalayalım. Ardışık günler tabii ki birbiriyle ilgili. Sonuç olarak aynı aylar, mevsimler, okul zamanları, bayramlar içindeler. Dolayısıyla birisinin bir vakti yğksekken öbürünün de vakitleri yğksekolabilir. Belki vakitler arasındaki farklara bakmak hipotezimizi destekler. Yani vakitlerin trafik yoğunluğu ile vakitler arasındaki farkalra bakalım. Beklediğimiz şey, örneğin dün sabah trafik yoğunluğu yüksekse, bu sabahın trafik yoğunluğunun dün sabahın yoğunluğundan daha düşük olması. Yani günlük absolüt değerlerle vakitlerin farklılıkların arasındaki korelasyonların negatif olması. 
+
+![](/Figures/Ard%C4%B1s%CC%A7%C4%B1k%20Gu%CC%88nlerin%20(Sal%C4%B1%20-%20Cuma)%20Vakitlerinin%20%20ve%20Farklar%C4%B1n%C4%B1n%20Korelasyonu.png)
+
+Veeee, çok güçlü olmasa da, beklediğimiz ilişkiyi görüyoruz. Yani dün trafik yüksekse, bugün aynı vakitte trafiğin daha düşük olmasını bekliyoruz. Ama bu ilişki çok da güçlü değil. Biraz daha detaylı bakınca bakalım bir şey çıkacak mı. Önce sabahlara daha detaylı bakalım.
+
+![](/Figures/Du%CC%88n%20Sabahla%20Bu%20Sabah%20Fark%C4%B1%20-%20Du%CC%88n%20Sabah%20Yog%CC%86unluk%20I%CC%87lis%CC%A7kisi.png)
+
+Y aksı dünle olan farkı gösteriyor, X aksı ise dünkü trafiği. Farkın çok büyük olduğu tarihler 1 Mayıs, 2 Mayıs, 30 Ekim, 24 Nisan. Bunlar öncesinde ya da sonrasında resmi tatil olan günler (halen Salı-Cuma versiine bakıyoruz bu arada). Onun dışındaki veriler düşük trafikli ve düşük farklı bir grubu saymazsak korelasyon matrisinde gördüğümüz negatif ilişkiyi gösteriyor. Hatta daha iyi görmek için basit bir regresyon bile yapabiliriz.
+
+![](/Figures/Du%CC%88n%20Sabahla%20Bu%20Sabah%20Fark%C4%B1%20-%20Du%CC%88n%20Sabah%20Yog%CC%86unluk%20I%CC%87lis%CC%A7kisi%20(Lineer%20Regresyon).png)
+
+Dediğimiz gibi bu çok güçlü bir ilişki değil. Ama çok güçlü olmaması için akla yatkın bir açıklama var. Trafiğin genel seviyesi düşükken "dün biraz trafik vardı, yarın arabayı çıkarmayayım" diyen çok da yoktur. Bu etki muhtemelen belirli bir trafik seviyesinin üzerinde ortaya çıkıyordur diye düşünebiliriz . O zaman bir başka metodla tekrar kullanabiliriz. Bu metodun adı Loess ya da Lowess: [Locally Weighted Linear Regression](https://xavierbourretsicotte.github.io/loess.html). Kabaca birbirine yakın noktalar için bir fonksiyon tahmin edip, sonra bu tahminleri birleştirerek çalışıyor. Loess sonucu şöyle:
+
+![](/Figures/Du%CC%88n%20Sabahla%20Bu%20Sabah%20Fark%C4%B1%20-%20Du%CC%88n%20Sabah%20Yog%CC%86unluk%20I%CC%87lis%CC%A7kisi%20(Lowess).png)
+
+Bu biraz daha beklediğimiz gibi. Yani Dünkü sabah trafiği 40'lara gelene kadar bugünkü trafiği etkilemiyor ama sonrasında bayağı etkiliyor. Hatta şu tatil öncesi sonrası eksterm değerleri çıkartırsak bunu daha da açık görebiliriz:
+
+![](/Figures/Du%CC%88n%20Sabahla%20Bu%20Sabah%20Fark%C4%B1%20-%20Du%CC%88n%20Sabah%20Yog%CC%86unluk%20I%CC%87lis%CC%A7kisi%20(Lowess%20-%20Limitli).png)
+
+Ve görüyoruz:) Tabii bunu görmek için ille de Lowess gibi yeni moda şeyler şart değil. Üçüncü dereceden bir polinominal regresyonla da benzer bir ilişkiyi görmek mümkün (bu arada kullandığım [grafik paketi](https://seaborn.pydata.org/)  regresyonlardaki denklemleri göstermiyor, başka bir istatistik paketiyle hesaplayıp eklemeye de üşündeim, merak ediyorsanız kendiniz hesaplayabilirsiniz).
+
+![](/Figures/Du%CC%88n%20Sabahla%20Bu%20Sabah%20Fark%C4%B1%20-%20Du%CC%88n%20Sabah%20Yog%CC%86unluk%20I%CC%87lis%CC%A7kisi%20(Poly%20Reg%20-%20Limitli).png)
+
+Burada da ekstrem değerler dışarıda ve sadece Salı-Cuma versine bakıyoruz.
+
+Akşam trafiği için de bu ölçüde olmasa da aynı şeyleri söylemek mümkün. Bu grafiklerin akşam için olanlarını bu git içindeki [Figures klasöründe](https://github.com/skurmus/2019istanbultrafikverisi/tree/master/Figures) ya da daha düşük çözünürlüklü olanları [Analiz Jupyter Notebook'u](https://github.com/skurmus/2019istanbultrafikverisi/blob/master/Istanbul-Trafik-Veri-Analiz.ipynb) içinde görebilirsiniz.
 
 # "Bugün X, Millet Erken Çıkmış/Geç Çıkmış Şimdi Trafik Rahat" Diye Bir Şey Gerçekten Var mı?
 
