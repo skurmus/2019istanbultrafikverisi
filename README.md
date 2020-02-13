@@ -474,27 +474,27 @@ Günlerin kendi içinde yukarıda bahsettiğim ilişkiler tabii burada da görü
 
 Tüm günleri aldığımız korelasyonlara göre daha yüksek bu günlerdeki korelasyonlar ama halen çok da etkili değil. Üstelik negatif ilişkiler beklerken halen pozitif ilişkiler görüyoruz. Yani veri bu şekliyle İstanbulluların inançlarını pek desteklemiyor.
 
-Bu kadar İstanbul'lu yanlış değildir diyerek biraz daha kurcalayalım. Ardışık günler tabii ki birbiriyle ilgili. Sonuç olarak aynı aylar, mevsimler, okul zamanları, bayramlar içindeler. Dolayısıyla birisinin bir vakti yğksekken öbürünün de vakitleri yğksekolabilir. Belki vakitler arasındaki farklara bakmak hipotezimizi destekler. Yani vakitlerin trafik yoğunluğu ile vakitler arasındaki farkalra bakalım. Beklediğimiz şey, örneğin dün sabah trafik yoğunluğu yüksekse, bu sabahın trafik yoğunluğunun dün sabahın yoğunluğundan daha düşük olması. Yani günlük absolüt değerlerle vakitlerin farklılıkların arasındaki korelasyonların negatif olması. 
+Bu kadar İstanbul'lu yanlış değildir diyerek biraz daha kurcalayalım. Ardışık günler tabii ki birbiriyle ilgili. Sonuç olarak aynı aylar, mevsimler, okul zamanları, bayramlar içindeler. Dolayısıyla birisinin bir vakti yğksekken öbürünün de vakitleri yğksekolabilir. Belki vakitler arasındaki farklara bakmak hipotezimizi destekler. Yani vakitlerin trafik yoğunluğu ile vakitler arasındaki farklara bakalım. Beklediğimiz şey, örneğin dün sabah trafik yoğunluğu yüksekse, bu sabahın trafik yoğunluğunun dün sabahın yoğunluğundan daha düşük olması. Yani günlük mutlak değerlerle vakitlerin farklılıkların arasındaki korelasyonların negatif olması. 
 
 ![](/Figures/Ard%C4%B1s%CC%A7%C4%B1k%20Gu%CC%88nlerin%20(Sal%C4%B1%20-%20Cuma)%20Vakitlerinin%20%20ve%20Farklar%C4%B1n%C4%B1n%20Korelasyonu.png)
 
-Veeee, çok güçlü olmasa da, beklediğimiz ilişkiyi görüyoruz. Yani dün trafik yüksekse, bugün aynı vakitte trafiğin daha düşük olmasını bekliyoruz. Ama bu ilişki çok da güçlü değil. Biraz daha detaylı bakınca bakalım bir şey çıkacak mı. Önce sabahlara daha detaylı bakalım.
+Veeee, çok güçlü olmasa da, beklediğimiz ilişkiyi görüyoruz (dün trafik yüksekse, bugün aynı vakitte trafiğin daha düşük olacağını bekliyorduk). Ama bu ilişki çok da güçlü değil. Biraz daha detaylı bakınca bakalım bir şey çıkacak mı? Önce sabahlara daha detaylı bakalım.
 
 ![](/Figures/Du%CC%88n%20Sabahla%20Bu%20Sabah%20Fark%C4%B1%20-%20Du%CC%88n%20Sabah%20Yog%CC%86unluk%20I%CC%87lis%CC%A7kisi.png)
 
-Y aksı dünle olan farkı gösteriyor, X aksı ise dünkü trafiği. Farkın çok büyük olduğu tarihler 1 Mayıs, 2 Mayıs, 30 Ekim, 24 Nisan. Bunlar öncesinde ya da sonrasında resmi tatil olan günler (halen Salı-Cuma versiine bakıyoruz bu arada). Onun dışındaki veriler düşük trafikli ve düşük farklı bir grubu saymazsak korelasyon matrisinde gördüğümüz negatif ilişkiyi gösteriyor. Hatta daha iyi görmek için basit bir regresyon bile yapabiliriz.
+Y aksı dünle olan farkı gösteriyor, X aksı ise dünkü trafiği. Farkın çok büyük olduğu tarihler 1 Mayıs, 2 Mayıs, 30 Ekim, 24 Nisan. Bunlar öncesinde ya da sonrasında resmi tatil olan günler (halen Salı-Cuma versiine bakıyoruz bu arada). Y aksındaki bu ekstrem veriler haricinde, X aksında da düşük trafikli ve düşük farklı bir grubu var. Kalanlar için korelasyon matrisinde gördüğümüz negatif ilişkiyi gözle bile görmek mümkün. Daha iyi görmek için basit bir regresyon bile yapabiliriz (neden yoralım gözümüzü:).
 
 ![](/Figures/Du%CC%88n%20Sabahla%20Bu%20Sabah%20Fark%C4%B1%20-%20Du%CC%88n%20Sabah%20Yog%CC%86unluk%20I%CC%87lis%CC%A7kisi%20(Lineer%20Regresyon).png)
 
-Dediğimiz gibi bu çok güçlü bir ilişki değil. Ama çok güçlü olmaması için akla yatkın bir açıklama var. Trafiğin genel seviyesi düşükken "dün biraz trafik vardı, yarın arabayı çıkarmayayım" diyen çok da yoktur. Bu etki muhtemelen belirli bir trafik seviyesinin üzerinde ortaya çıkıyordur diye düşünebiliriz . O zaman bir başka metodla tekrar kullanabiliriz. Bu metodun adı Loess ya da Lowess: [Locally Weighted Linear Regression](https://xavierbourretsicotte.github.io/loess.html). Kabaca birbirine yakın noktalar için bir fonksiyon tahmin edip, sonra bu tahminleri birleştirerek çalışıyor. Loess sonucu şöyle:
+Lineer regresyon da bu ilişkinin çok güçlü olmadığını gösteriyor. Ama çok güçlü olmaması için akla yatkın bir açıklama var. Trafiğin genel seviyesi düşükken "dün biraz trafik vardı, yarın arabayı çıkarmayayım" diyen çok da yoktur. Sürücüler bu kararı muhtemelen belirli bir trafik seviyesinin üzerinde bir trafikle karşılaştıklarında veriyorlardır. O zaman bir başka metodla tekrar aradaki ilişkiyi göreselleştirmeyi denyelim. Bu metodun adı Loess ya da Lowess: [Locally Weighted Linear Regression](https://xavierbourretsicotte.github.io/loess.html). Kabaca birbirine yakın noktalar için bir fonksiyon tahmin edip, sonra bu tahminleri birleştirerek çalışıyor. Loess sonucu şöyle:
 
 ![](/Figures/Du%CC%88n%20Sabahla%20Bu%20Sabah%20Fark%C4%B1%20-%20Du%CC%88n%20Sabah%20Yog%CC%86unluk%20I%CC%87lis%CC%A7kisi%20(Lowess).png)
 
-Bu biraz daha beklediğimiz gibi. Yani Dünkü sabah trafiği 40'lara gelene kadar bugünkü trafiği etkilemiyor ama sonrasında bayağı etkiliyor. Hatta şu tatil öncesi sonrası eksterm değerleri çıkartırsak bunu daha da açık görebiliriz:
+Bu biraz daha beklediğimiz gibi. Dünkü sabah trafiği 40'lara gelene kadar bugünkü trafiği etkilemiyor ama sonrasında etkiliyor. Hatta şu tatil öncesi sonrası ekstrem değerleri çıkartırsak bunu daha da açık görebiliriz:
 
 ![](/Figures/Du%CC%88n%20Sabahla%20Bu%20Sabah%20Fark%C4%B1%20-%20Du%CC%88n%20Sabah%20Yog%CC%86unluk%20I%CC%87lis%CC%A7kisi%20(Lowess%20-%20Limitli).png)
 
-Ve görüyoruz:) Tabii bunu görmek için ille de Lowess gibi yeni moda şeyler şart değil. Üçüncü dereceden bir polinominal regresyonla da benzer bir ilişkiyi görmek mümkün (bu arada kullandığım [grafik paketi](https://seaborn.pydata.org/)  regresyonlardaki denklemleri göstermiyor, başka bir istatistik paketiyle hesaplayıp eklemeye de üşündeim, merak ediyorsanız kendiniz hesaplayabilirsiniz).
+Ve görüyoruz:) Tabii bunu görmek için ille de Lowess gibi yeni moda şeyler şart değil. Üçüncü dereceden bir polinominal regresyonla da benzer bir ilişkiyi görmek mümkün (bu arada kullandığım [grafik paketi](https://seaborn.pydata.org/)  regresyonlardaki denklemleri göstermiyor, başka bir istatistik paketiyle hesaplayıp eklemeye de üşendim, merak ediyorsanız kendiniz hesaplayabilirsiniz).
 
 ![](/Figures/Du%CC%88n%20Sabahla%20Bu%20Sabah%20Fark%C4%B1%20-%20Du%CC%88n%20Sabah%20Yog%CC%86unluk%20I%CC%87lis%CC%A7kisi%20(Poly%20Reg%20-%20Limitli).png)
 
