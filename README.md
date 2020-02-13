@@ -3,6 +3,17 @@
 
 # Top 10
 
+1. Trafik hafta başından hafta sonuna doğru her geçen gün gittikçe kötüleşiyor.
+2. Akşamlar yoğunluğu sabah yoğunluğuna göre çok daha kötü.
+3. Hatta öğleden sonra trafiği bile sabah trafiğinden daha kötü.
+4. Cumartesi günleri hiç masum değil. Öğleden sonra trafik hafta içini aratmıyor.
+5. Trafikten en az etkilenmek istiyorsanız sabah 10 gibi evden çıkıp akşam da sekiz gibi işten çıkmak en iyisi.
+6. Kasım ve Aralık trafiğin en kötü olduğu aylar.
+7. Bayramlar trafiği gerçekten rahatlatıyor. Resmi tatiller de. Ama bayram öncesinde yılın en kötü trafikleri de yaşanıyor.
+8. Yarıyıl tailinin trafiğe pek faydası yok.
+9. Dün trafik çok kötüydü, millet bugün çıkmamış gözlemi, dün trafik endeksi 40'ların üzerine çıkmışsa doğru.
+10. [İBB Açık Veri Portali](https://data.ibb.gov.tr/) tüm eksikliklerine rağmen gayet iyi bir proje. Daha iyi olmasını dört gözle bekliyorum.
+
 # İstanbul Trafik İndeksi
 İstanbul Trafik İndeksi Raporu [İstanbul Büyükşehir Belediyesi Açık Veri Portalı](https://data.ibb.gov.tr/dataset/trafik-indeksi-raporu)'nda yayınlanan bir veri seti. Veri seti nasıl oluşmuş, indeks tam olarak neyi açıklıyor aslında veri setinde yazmıyor. Muhtemelen İBB Cep Trafik uygulamasında, sağ üst köşede yazan Trafik Yoğunluğu sayısı buradaki veriyle aynı.
 
@@ -502,5 +513,12 @@ Burada da ekstrem değerler dışarıda ve sadece Salı-Cuma versine bakıyoruz.
 
 Akşam trafiği için de bu ölçüde olmasa da aynı şeyleri söylemek mümkün. Bu grafiklerin akşam için olanlarını bu git içindeki [Figures klasöründe](https://github.com/skurmus/2019istanbultrafikverisi/tree/master/Figures) ya da daha düşük çözünürlüklü olanları [Analiz Jupyter Notebook'u](https://github.com/skurmus/2019istanbultrafikverisi/blob/master/Istanbul-Trafik-Veri-Analiz.ipynb) içinde görebilirsiniz.
 
-# "Bugün X, Millet Erken Çıkmış/Geç Çıkmış Şimdi Trafik Rahat" Diye Bir Şey Gerçekten Var mı?
+# Başka Ne Yapılabilir
+Trafik İndeksi verisinin bu haliyle yapılacak başka işler de var. Zamanınız olup da bunları ya da başklarını yaparsanız lütfen bu repoya ekleyin. benim ilk aklıma gelenler:
+
+- Hava durumu verisi ile birlikte bakıp hem hava durumunun etkisine bakmak, hem de bu etkiden arındırılmış ilişkilere bakmak ilginç olabilir. Bu arada etrafta doğru dürüst günlük ya da saatlik İstanbul hava durumu verisi ben bulamadım. Bulursanız eminim başka ihtiyacı olanlar da vardır.
+- İyi bir istatiskçi ya da veri bilimcisi bu veriden yola çıkarak sabah ya da akşam trafiğini tahmin edebilecek modeller geliştirebilir. Benim burada yaptıklarım basit ilişkileri gösteriyor.
+- Tüm İstanbul için tek indeks aslında veriyi çok basitleştiriyor. Bölgesel bazda indekslerle daha ilginç şeyler yapılabilir. Ben İBB Açık Veri Portalindeki [veri taleplerinden birine](https://data.ibb.gov.tr/datarequest/1f79628a-a633-4649-95eb-1fd2caef6bcc) yorum olarak ekledim. Siz de isterseniz belki olur.
+
+
 
