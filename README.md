@@ -10,7 +10,7 @@
 5. Trafikten en az etkilenmek istiyorsanız sabah 10 gibi evden çıkıp akşam da sekiz gibi işten çıkmak en iyisi.
 6. Kasım ve Aralık trafiğin en kötü olduğu aylar.
 7. Bayramlar trafiği gerçekten rahatlatıyor. Resmi tatiller de. Ama bayram öncesinde yılın en kötü trafikleri de yaşanıyor.
-8. Yarıyıl tailinin trafiğe pek faydası yok.
+8. Yarıyıl tatilinin trafiğe pek faydası yok.
 9. Dün trafik çok kötüydü, millet bugün çıkmamış gözlemi, dün trafik endeksi 40'ların üzerine çıkmışsa doğru.
 10. [İBB Açık Veri Portali](https://data.ibb.gov.tr/) tüm eksikliklerine rağmen gayet iyi bir proje. Daha iyi olmasını dört gözle bekliyorum.
 
