@@ -497,7 +497,7 @@ Y aksı dünle olan farkı gösteriyor, X aksı ise dünkü trafiği. Farkın ç
 
 ![](/Figures/Du%CC%88n%20Sabahla%20Bu%20Sabah%20Fark%C4%B1%20-%20Du%CC%88n%20Sabah%20Yog%CC%86unluk%20I%CC%87lis%CC%A7kisi%20(Lineer%20Regresyon).png)
 
-Lineer regresyon da bu ilişkinin çok güçlü olmadığını gösteriyor. Ama çok güçlü olmaması için akla yatkın bir açıklama var. Trafiğin genel seviyesi düşükken "dün biraz trafik vardı, yarın arabayı çıkarmayayım" diyen çok da yoktur. Sürücüler bu kararı muhtemelen belirli bir trafik seviyesinin üzerinde bir trafikle karşılaştıklarında veriyorlardır. O zaman bir başka metodla tekrar aradaki ilişkiyi göreselleştirmeyi denyelim. Bu metodun adı Loess ya da Lowess: [Locally Weighted Linear Regression](https://xavierbourretsicotte.github.io/loess.html). Kabaca birbirine yakın noktalar için bir fonksiyon tahmin edip, sonra bu tahminleri birleştirerek çalışıyor. Loess sonucu şöyle:
+Lineer regresyon da bu ilişkinin çok güçlü olmadığını gösteriyor. Ama çok güçlü olmaması için akla yatkın bir açıklama var. Trafiğin genel seviyesi düşükken "dün biraz trafik vardı, yarın arabayı çıkarmayayım" diyen çok da yoktur. Sürücüler bu kararı muhtemelen belirli bir trafik seviyesinin üzerinde bir trafikle karşılaştıklarında veriyorlardır. O zaman bir başka metodla tekrar aradaki ilişkiyi göreselleştirmeyi deneyelim. Bu metodun adı Loess ya da Lowess: [Locally Weighted Linear Regression](https://xavierbourretsicotte.github.io/loess.html). Kabaca birbirine yakın noktalar için bir fonksiyon tahmin edip, sonra bu tahminleri birleştirerek çalışıyor. Loess sonucu şöyle:
 
 ![](/Figures/Du%CC%88n%20Sabahla%20Bu%20Sabah%20Fark%C4%B1%20-%20Du%CC%88n%20Sabah%20Yog%CC%86unluk%20I%CC%87lis%CC%A7kisi%20(Lowess).png)
 
