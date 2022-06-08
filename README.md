@@ -479,13 +479,13 @@ Bu İstanbul'da çok sık yapılan bir geyik: dün trafik çok kötüydü, bugü
 
 ![](/Figures/Ard%C4%B1s%CC%A7%C4%B1k%20Gu%CC%88nlerinin%20Vakitlerinin%20Trafik%20Yog%CC%86unluk%20Korelasyonu.png)
 
-Günlerin kendi içinde yukarıda bahsettiğim ilişkiler tabii burada da görünüyor ama düne bakıp bugünle ilgili pek bir şey söylemek mümkün değil pek. Ama burada atladığımız bir şey var: haftanın bazı gümnleri kendinden önce ya da sonra gelen günlerden çok farklı. Yani Pazar'a bakıp Pazartesiyi anlamaya çalışmak, ya da Cuma'ya bakıp Cumartesi'yi tahmin etmek çok anlamlı değil. Onun için yukarıdaki korelasyon ısı haritasına bir de sadece Salı, Çarşamba, Perşembe ve Cuma için bakalım.
+Günlerin kendi içinde yukarıda bahsettiğim ilişkiler tabii burada da görünüyor ama düne bakıp bugünle ilgili pek bir şey söylemek mümkün değil pek. Ama burada atladığımız bir şey var: haftanın bazı günleri kendinden önce ya da sonra gelen günlerden çok farklı. Yani pazara bakıp pazartesiyi anlamaya çalışmak, ya da cumaya bakıp cumartesiyi tahmin etmek çok anlamlı değil. Onun için yukarıdaki korelasyon ısı haritasına bir de sadece salı, çarşamba, perşembe ve cuma için bakalım.
 
 ![](/Figures/Ard%C4%B1s%CC%A7%C4%B1k%20Gu%CC%88nlerin%20(Sal%C4%B1%20-%20Cuma)%20Vakitlerinin%20Trafik%20Yog%CC%86unluk%20Korelasyonu.png)
 
 Tüm günleri aldığımız korelasyonlara göre daha yüksek bu günlerdeki korelasyonlar ama halen çok da etkili değil. Üstelik negatif ilişkiler beklerken halen pozitif ilişkiler görüyoruz. Yani veri bu şekliyle İstanbulluların inançlarını pek desteklemiyor.
 
-Bu kadar İstanbul'lu yanlış değildir diyerek biraz daha kurcalayalım. Ardışık günler tabii ki birbiriyle ilgili. Sonuç olarak aynı aylar, mevsimler, okul zamanları, bayramlar içindeler. Dolayısıyla birisinin bir vakti yğksekken öbürünün de vakitleri yğksekolabilir. Belki vakitler arasındaki farklara bakmak hipotezimizi destekler. Yani vakitlerin trafik yoğunluğu ile vakitler arasındaki farklara bakalım. Beklediğimiz şey, örneğin dün sabah trafik yoğunluğu yüksekse, bu sabahın trafik yoğunluğunun dün sabahın yoğunluğundan daha düşük olması. Yani günlük mutlak değerlerle vakitlerin farklılıkların arasındaki korelasyonların negatif olması. 
+Bu kadar İstanbul'lu yanlış değildir diyerek biraz daha kurcalayalım. Ardışık günler tabii ki birbiriyle ilgili. Sonuç olarak aynı aylar, mevsimler, okul zamanları, bayramlar içindeler. Dolayısıyla birisinin bir vakti yüksekken öbürünün de vakitleri yüksekolabilir. Belki vakitler arasındaki farklara bakmak hipotezimizi destekler. Yani vakitlerin trafik yoğunluğu ile vakitler arasındaki farklara bakalım. Beklediğimiz şey, örneğin dün sabah trafik yoğunluğu yüksekse, bu sabahın trafik yoğunluğunun dün sabahın yoğunluğundan daha düşük olması. Yani günlük mutlak değerlerle vakitlerin farklılıkların arasındaki korelasyonların negatif olması. 
 
 ![](/Figures/Ard%C4%B1s%CC%A7%C4%B1k%20Gu%CC%88nlerin%20(Sal%C4%B1%20-%20Cuma)%20Vakitlerinin%20%20ve%20Farklar%C4%B1n%C4%B1n%20Korelasyonu.png)
 
